@@ -1,0 +1,66 @@
+# include<stdio.h>
+int main()
+{
+	int RS;
+	scanf("%d",&RS);
+	if(11<=RS<=59)
+	{
+		if(RS%10==1)
+		{
+			printf("Faint signals, barely perceptible, "); 
+		}
+		if(RS%10==2)
+		{
+			printf("Very weak signals, ");
+		}
+		if(RS%10==3)
+		{
+			printf("Weak signals, ");
+		}
+		if(RS%10==4)
+		{
+			printf("Fair signals, ");
+		}
+		if(RS%10==5)
+		{
+			printf("Fairly good signals, ");
+		}
+		if(RS%10==6)
+		{
+			printf("Good signals, ");
+		}
+		if(RS%10==7)
+		{
+			printf("Moderately strong signals, ");
+		}
+		if(RS%10==8)
+		{
+			printf("Strong signals, ");
+		}
+		if(RS%10==9)
+		{
+			printf("Extremely strong signals, ");
+		}
+		if(RS/10==1)
+		{
+			printf("unreadable.");
+		}
+		if(RS/10==2)
+		{
+			printf("barely readable, occasional words distinguishable.");
+		}
+		if(RS/10==3)
+		{
+			printf("readable with considerable difficulty.");
+		}
+		if(RS/10==4)
+		{
+			printf("readable with practically no difficulty.");
+		}
+		if(RS/10==5)
+		{
+			printf("perfectly readable.");
+		}
+	}
+return (0);	
+}
