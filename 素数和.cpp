@@ -7,14 +7,14 @@ int main(){
 	int sum=0;
 	while(cnt<n){
 		int i;
-		int prime=1;//ÊÇËØÊı
+		int prime=1;//æ˜¯ç´ æ•°
 		for(int i=2;i<x;i++){
 			if(x%i==0){
-				prime=0;//²»ÊÇËØÊı 
+				prime=0;//ä¸æ˜¯ç´ æ•° 
 				break;
 			}
 			else{
-				prime=1;//ÊÇËØÊı 
+				prime=1;//æ˜¯ç´ æ•°
 				
 			} 
 		} 
